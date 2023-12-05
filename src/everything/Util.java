@@ -63,4 +63,7 @@ public class Util {
     public static Integer[] parseArrayInt(String[] strings) {
         return Arrays.stream(strings).map(Integer::parseInt).toArray(Integer[]::new);
     }
+    public static Long[] parseArrayLong(String[] strings) {
+        return Arrays.stream(strings).map(Long::parseLong).toArray(Long[]::new);
+    }
 }
